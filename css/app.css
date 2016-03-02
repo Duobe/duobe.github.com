@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+html,div,input,button,span,h1,p,br,ul,li {
+	padding: 0;
+	margin: 0;
+}
+#demo {
+	font-family: "微软雅黑";
+	position: relative;
+	top: 10px;
+	width: 500px;
+	min-height: 200px;
+	max-height: 500px;
+	margin: 0 auto;
+	padding: 5px;
+	overflow-y: auto;
+}
+div>input {
+	width: 304px;
+	height: 30px;
+	border: 1px solid rgba(35, 40, 36, .4);
+	text-indent: 0.5em;
+	margin-right: 6px;
+	outline: thick;
+	font: 12px "微软雅黑";
+}
+ul{
+	margin-top: 4px;;
+}
+li {
+	position: relative;
+	line-height: 38px;
+	width: 470px;
+	border: 2px solid #eee;
+	margin-top: 1px;
+	padding: 1px 5px;
+	list-style: none;
+	border-left-color: #739C65;
+	color: #666;
+}
+span {
+	width: 370px;
+	text-indent: 10em;
+	word-break: break-word;
+	/*color: #666;*/
+}
+div>button,
+li>button {
+	width: 80px;
+	height: 30px;
+	border: none;
+	background-color: rgba(92, 184, 92, .8);
+	color: white;
+	border-radius: 2px;
+}
+div>button {
+	padding: 2px;
+}
+li>button {
+	float: right;
+	text-align: center;
+	margin-top: 4px;
+	background-color: rgba(217, 83, 79, .8);
+}
+button.ra {
+	background-color: rgba(217, 83, 79, .8);
+}
+p {
+	text-align: center;
+	font-size: 10px;
+	color: #666666;
+	margin-top: 15px;
+}
+h1 {
+	color: gray;
+	text-align: center;
+	font: 50px "arial";
+}
+a {
+	text-decoration: none;
+	color: #333;
+}
+button:hover {
+	cursor: hand;
+}
+a:hover {
+	text-decoration: underline;
+}
+.true {
+	text-decoration: line-through;
+	background-color: rgba(128, 128, 128, .2);
+	border-left-color: rgba(217, 83, 79, 1);
+}
