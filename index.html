@@ -11,7 +11,7 @@
 	<body>
 		<div id="demo">
 			<h1 v-text="title"></h1>
-			<input type="text" v-model="input" v-on:keyup.enter="add($index)" />
+			<input type="text" v-model="input" v-on:keyup.enter="add($index)" placeholder="点击Enter添加TODO"/>
 			<button v-on:click="add">Add</button>
 			<button v-on:click="removeAll" class="ra">Remove All</button>
 			<ul>
